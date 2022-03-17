@@ -39,7 +39,7 @@ public class player {
 		}
 		//map에서 1인 경우 키 값을 반환한다.
 		for(String key : hm.keySet())
-		{
+		{ 
 			if(hm.get(key) != 0) 
 			{
 				return key;
